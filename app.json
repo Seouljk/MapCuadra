@@ -1,0 +1,36 @@
+{
+  "expo": {
+    "name": "MapCuadra",
+    "slug": "Seoul",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./src/logo/ExigentFinale.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./src/logo/ExigentFinale.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./src/logo/ExigentFinale.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.feikseoul.Seoul"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "db930fb7-bf40-4a24-b4c0-8de17bffb0e2"
+      }
+    }
+  }
+}
